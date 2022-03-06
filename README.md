@@ -1,2 +1,2 @@
 # MCNPC
-This is a line from Rstudio.
+The first function is distractor.test.
