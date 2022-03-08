@@ -3,7 +3,7 @@ distractor.check=function(Q){
   Q=as.matrix(Q)
   J=length(unique(Q[,1]))
   K=ncol(Q)-2
-  
+  # [Test] Add Comments
   flag.useful = flag.proper = NULL
   for (j in 1:J){
     subQ=Q[which(Q[,1]==j),]
